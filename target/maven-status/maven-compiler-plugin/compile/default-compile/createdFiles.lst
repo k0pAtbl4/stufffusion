@@ -1,0 +1,12 @@
+com\online_store\demo\web\UserController.class
+com\online_store\demo\repository\ProductRepository.class
+com\online_store\demo\entity\UserType.class
+com\online_store\demo\entity\User.class
+com\online_store\demo\service\ProductServiceBean.class
+com\online_store\demo\entity\Product.class
+com\online_store\demo\OnlineStoreApplication.class
+com\online_store\demo\entity\User$UserBuilder.class
+com\online_store\demo\entity\Product$ProductBuilder.class
+com\online_store\demo\entity\ProductType.class
+com\online_store\demo\service\ProductService.class
+com\online_store\demo\web\impl\UserControllerBean.class
