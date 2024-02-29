@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public interface UserController {
-    @GetMapping("/home")
+    @GetMapping("/")
     @ResponseStatus(HttpStatus.OK)
     public String homePage();
 

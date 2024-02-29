@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b85e3f7b-ad4c-4d42-b650-74f278c1c069" name="Changes" comment="init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/impl/UserControllerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/impl/UserControllerBean.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +96,7 @@
       <workItem from="1708795361778" duration="3606000" />
       <workItem from="1708875956622" duration="361000" />
       <workItem from="1709211892932" duration="379000" />
-      <workItem from="1709212284863" duration="2781000" />
+      <workItem from="1709212284863" duration="4270000" />
     </task>
     <task id="LOCAL-00001" summary="Dockerfile added">
       <created>1708795249001</created>
@@ -149,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709214049105</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="init">
+      <created>1709215209000</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1709215209000</updated>
+    </task>
+    <task id="LOCAL-00009" summary="init">
+      <created>1709215388665</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1709215388665</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -16,7 +16,7 @@ public class UserControllerBean implements UserController {
 
     @Override
     public String homePage() {
-        return "Welcome to our website!";
+        return "Welcome to our website! This is the homepage";
     }
 
     @Override
