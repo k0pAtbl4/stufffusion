@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b85e3f7b-ad4c-4d42-b650-74f278c1c069" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,9 @@
       <workItem from="1707659388362" duration="6513000" />
       <workItem from="1708189365872" duration="2716000" />
       <workItem from="1708192534541" duration="5280000" />
-      <workItem from="1708795361778" duration="806000" />
+      <workItem from="1708795361778" duration="3606000" />
+      <workItem from="1708875956622" duration="361000" />
+      <workItem from="1709211892932" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="Dockerfile added">
       <created>1708795249001</created>
@@ -106,11 +110,29 @@
       <option name="project" value="LOCAL" />
       <updated>1708795402978</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <created>1708796344202</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708796344202</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-core" />
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
+    <option featureType="dependencySupport" implementationName="java:com.google.cloud:google-cloud-storage" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.data:spring-data-commons" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework.boot:spring-boot" />
+    <option featureType="dependencySupport" implementationName="java:org.springframework:spring-webmvc" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
