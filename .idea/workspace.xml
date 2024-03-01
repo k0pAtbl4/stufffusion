@@ -4,11 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b85e3f7b-ad4c-4d42-b650-74f278c1c069" name="Changes" comment="init">
+    <list default="true" id="b85e3f7b-ad4c-4d42-b650-74f278c1c069" name="Changes" comment="homepage added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/OnlineStoreApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/OnlineStoreApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/entity/UserType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/repository/ProductRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/impl/UserControllerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/online_store/demo/web/impl/UserControllerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/OnlineStoreApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/OnlineStoreApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/entity/UserType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/online_store/demo/web/impl/UserControllerBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/online_store/demo/web/impl/UserControllerBean.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +31,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="HTML File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,31 +55,39 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2cDwIuepeCbbn2eBsPIayEbkxmk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/JavaProjectFolder/demoWithTests",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "spring.configuration.checksum": "fe01ce2a7fbac8fafaed7c982a04e229"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/JavaProjectFolder/demoWithTests&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.appearance&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;fe01ce2a7fbac8fafaed7c982a04e229&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sasha\Desktop\demo\src\main\resources\templates" />
+      <recent name="C:\Users\sasha\Desktop\demo" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="demo" />
@@ -96,7 +116,8 @@
       <workItem from="1708795361778" duration="3606000" />
       <workItem from="1708875956622" duration="361000" />
       <workItem from="1709211892932" duration="379000" />
-      <workItem from="1709212284863" duration="4270000" />
+      <workItem from="1709212284863" duration="4393000" />
+      <workItem from="1709296223687" duration="12040000" />
     </task>
     <task id="LOCAL-00001" summary="Dockerfile added">
       <created>1708795249001</created>
@@ -161,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709215388665</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="homepage added">
+      <created>1709216624037</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709216624037</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +220,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dockerfile added" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="homepage added" />
+    <option name="LAST_COMMIT_MESSAGE" value="homepage added" />
   </component>
 </project>
